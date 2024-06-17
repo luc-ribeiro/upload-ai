@@ -12,7 +12,8 @@
 
 <h2 id="project">📁 Projeto</h2>
 
-O projeto consiste em um gerador de pedidos e títulos para vídeos do YouTube com base na transcrição do conteúdo.
+O projeto consiste em um gerador de descrições e títulos para vídeos do YouTube a partir da transcrição do conteúdo.
+Construído usando API OpenAI para transcrever o áudio de um arquivo de vídeo e, em seguida, gera um título ou descrição com base na transcrição.
 
 ![Screenshot_1](https://github.com/luc-ribeiro/upload-ai/assets/69688077/ba00dbc0-ec3e-4bf9-bd0c-4e6a4e48d4bd)
 
