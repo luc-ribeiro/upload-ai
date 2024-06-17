@@ -14,6 +14,8 @@
 
 The project consists of a generator of orders and titles for YouTube videos based on the transcription of the content.
 
+![Screenshot_1](https://github.com/luc-ribeiro/upload-ai/assets/69688077/017a8b97-8647-4e80-9adf-0781d3cab360)
+
 <h2 id="technologies">💻 Techs</h2>
 
 ### Frontend
