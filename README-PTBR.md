@@ -14,6 +14,8 @@
 
 O projeto consiste em um gerador de pedidos e títulos para vídeos do YouTube com base na transcrição do conteúdo.
 
+![Screenshot_1](https://github.com/luc-ribeiro/upload-ai/assets/69688077/ba00dbc0-ec3e-4bf9-bd0c-4e6a4e48d4bd)
+
 <h2 id="technologies">💻 Tecnologias</h2>
 
 ### Frontend
