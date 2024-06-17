@@ -1,10 +1,11 @@
-import { GithubLogo, MonitorPlay, UploadSimple, MagicWand } from "phosphor-react";
+import { GithubLogo, MagicWand } from "phosphor-react";
 import { Button } from "./components/ui/button";
 import { Separator } from "./components/ui/separator";
 import { Textarea } from "./components/ui/textarea";
 import { Label } from "./components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
 import { Slider } from "./components/ui/slider";
+import { VideoInputForm } from "./components/video-input-form";
 
 export function App() {
   return (
@@ -40,32 +41,7 @@ export function App() {
           <p className="text-ms text-muted-foreground">Remember: you can use the variable <code className="text-violet-400">{'{transcription}'}</code> in your prompt to add the transcription content in the selected video.</p>
         </div>
         <aside className="w-80 space-y-6">
-          <form className="space-y-6">
-            <label htmlFor="video" className="border flex rounded-md aspect-video cursor-pointer border-dashed text-sm flex-col gap-2 items-center justify-center text-muted-foreground hover:bg-primary/5">
-              <MonitorPlay size="1.5rem" />
-              Select a video
-            </label>
-
-            <input type="file" id="video" accept="video/mp4" className="sr-only" />
-
-            <Separator />
-
-            <div className="space-y-2">
-              <Label htmlFor="transcription_prompt">
-                Transcription prompt
-              </Label>
-              <Textarea
-                id="transcription_prompt"
-                className="min-h-20 leading-relaxed resize-none"
-                placeholder="Add keywords mentioned in the video separed by commas (,)"
-              />
-            </div>
-
-            <Button type="submit" className="w-full">
-              Upload video
-              <UploadSimple size="1.5rem" className="ml-2" />
-            </Button>
-          </form>
+          <VideoInputForm />
 
           <Separator />
 
