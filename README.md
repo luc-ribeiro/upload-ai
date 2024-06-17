@@ -12,7 +12,8 @@
 
 <h2 id="project">📁 Project</h2>
 
-The project consists of a generator of orders and titles for YouTube videos based on the transcription of the content.
+The project consists of a generator of descriptions and titles for YouTube videos based on the transcription of the content.
+Built using OpenAI API to transcript the audio from a video file, then it generates a title or description based on the transcription.
 
 ![Screenshot_1](https://github.com/luc-ribeiro/upload-ai/assets/69688077/017a8b97-8647-4e80-9adf-0781d3cab360)
 
